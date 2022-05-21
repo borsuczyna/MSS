@@ -135,7 +135,68 @@ Unpack mss to MTA resources folder
 
        transition: .2s;
    }
-</details>
 ```
 
 ![Example](https://user-images.githubusercontent.com/65825775/169349724-93b0826e-8064-40c3-8fb2-c08b5b854589.gif)
+</details>
+<details>
+   <summary>Border</summary>
+   
+   ```css
+   border: size unit, border type, color format;
+   
+   main {
+       background-color: rgb(15,15,15);
+       border: 3px solid lime;
+      border-radius: 30%;
+   }
+
+   main:hover {
+      border: 8px solid red;
+
+       transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169666810-d99b8b6b-9631-4fb0-a029-641f77af2c71.gif)
+</details>
+<details>
+   <summary>Text color</summary>
+   
+   ```css
+   color: color format;
+   
+   main {
+       background-color: rgb(15,15,15);
+       border: 1px solid rgb(255,255,255,155);
+      font-size: 30px;
+      color: white;
+   }
+
+   main:hover {
+      color: red;
+
+       transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169666914-83382423-1a4d-41eb-8608-2256e839e68c.gif)
+</details>
+<details>
+   <summary>Text align</summary>
+   
+   ```css
+   main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      font-size: 30px;
+      color: white;
+      text-align: left;
+   }
+
+   main:hover {
+      text-align: right;
+
+       transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169667051-3ffd8fb8-a288-43cf-936a-55cfe32875e4.gif)
+</details>
