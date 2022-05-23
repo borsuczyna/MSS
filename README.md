@@ -312,3 +312,103 @@ Unpack mss to MTA resources folder
    ```
    ![Example](https://user-images.githubusercontent.com/65825775/169853846-ce51162a-0101-46ba-9dd1-6b00861f5b89.gif)
 </details>
+<details>
+   <summary>Linear gradient</summary>
+   
+   ```css
+   background: linear-gradient(angle, colors (step));
+   
+   main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      border-radius: 10%;
+
+      background: linear-gradient(90deg, orange -100%, red 0%, orange 100%);
+   }
+
+   main:hover {
+      background: linear-gradient(90deg, orange 0%, red 100%, orange 200%);
+
+      transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169855188-ace0d840-42d9-4096-bce7-2f1947bcc0f9.gif)
+   
+   ```css
+      main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      border-radius: 10%;
+
+      background: linear-gradient(90deg, rgb(255, 0, 76) 0%, rgb(255, 247, 0) 100%);
+   }
+
+   main:hover {
+      background: linear-gradient(90deg, rgb(255, 247, 0) 0%, rgb(255, 0, 76) 100%);
+
+      transition: .2s;
+   }
+   ```
+   
+   ![Example](https://user-images.githubusercontent.com/65825775/169857044-8bb85be2-f725-4bd8-918a-e8e44ca32c01.gif)
+</details>
+<details>
+   <summary>Conic gradient</summary>
+   
+   ```css
+   main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      border-radius: 10%;
+
+      background: conic-gradient(0deg, rgb(255, 0, 76), rgb(255, 247, 0));
+   }
+
+   main:hover {
+      background: conic-gradient(180deg, rgb(255, 0, 76), rgb(255, 247, 0));
+
+      transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169860529-82cdbfff-53d7-414a-8533-a29db6932760.gif)
+</details>
+<details>
+   <summary>Diamond gradient</summary>
+   
+   ```css
+   main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      border-radius: 10%;
+
+      background: diamond-gradient(0deg, rgb(255, 0, 76), rgb(255, 247, 0));
+      }
+
+      main:hover {
+      background: diamond-gradient(180deg, green, blue, red, orange);
+
+      transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169860999-9382a613-b479-4baf-9425-530388765b7b.gif)
+</details>
+<details>
+   <summary>Radial gradient</summary>
+   
+   ```css
+   main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      border-radius: 10%;
+
+      background: radial-gradient(0deg, rgb(255, 0, 76), rgb(255, 247, 0));
+      }
+
+      main:hover {
+      background: radial-gradient(180deg, rgb(255, 0, 76), rgb(38, 255, 0));
+
+      transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169862453-afd0f80d-8c63-4165-bb46-9f1e0bf5c471.gif)
+</details>
