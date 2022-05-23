@@ -184,6 +184,8 @@ Unpack mss to MTA resources folder
    <summary>Text align</summary>
    
    ```css
+   text-align: align type;
+   
    main {
       background-color: rgb(15,15,15);
       border: 1px solid rgb(255,255,255,155);
@@ -200,3 +202,50 @@ Unpack mss to MTA resources folder
    ```
    ![Example](https://user-images.githubusercontent.com/65825775/169667051-3ffd8fb8-a288-43cf-936a-55cfe32875e4.gif)
 </details>
+<details>
+   <summary>Caret color</summary>
+   
+   ```css
+   caret-color: color format;
+   
+   main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      border-radius: 10%;
+   
+      caret-color: red;
+   }
+
+   main:hover {
+      caret-color: green;
+
+      transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169822250-8a70a509-e36b-44b1-88ed-a40508fbde64.gif)
+</details>
+<details>
+   <summary>Caret width</summary>
+   
+   ```css
+   caret-width: size format;
+   
+   main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      border-radius: 10%;
+      caret-color: red;
+   
+      caret-width: 2px;
+   }
+
+   main:hover {
+      caret-width: 15px;
+
+      transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169822642-e3391cd2-ef1f-45f6-9b94-fead0cec433a.gif)
+</details>
+<details>
+   <summary>Caret color</summary>
