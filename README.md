@@ -1,6 +1,9 @@
 # What is MSS?
 MSS is advanced MTA CSS library that allows you to load CSS without any performance lost, **for now it doesn't contain all CSS functions**
 
+# Code style
+Code is almost unreadable, that's beacuse of usage of baLua and reinterpreting it to Lua code for best performance
+
 # Installation
 Unpack mss to MTA resources folder
 
