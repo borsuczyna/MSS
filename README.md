@@ -206,6 +206,26 @@ Unpack mss to MTA resources folder
    ![Example](https://user-images.githubusercontent.com/65825775/169667051-3ffd8fb8-a288-43cf-936a-55cfe32875e4.gif)
 </details>
 <details>
+   <summary>Text size</summary>
+   
+   ```css
+   main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      border-radius: 10%;
+
+      font-size: 40px;
+   }
+
+   main:hover {
+      font-size: 20px;
+
+      transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169854304-c1282596-b04f-4d5f-bcfa-3ed40db589fb.gif)
+</details>
+<details>
    <summary>Caret color</summary>
    
    ```css
@@ -251,4 +271,44 @@ Unpack mss to MTA resources folder
    ![Example](https://user-images.githubusercontent.com/65825775/169822642-e3391cd2-ef1f-45f6-9b94-fead0cec433a.gif)
 </details>
 <details>
-   <summary>Caret color</summary>
+   <summary>Selection color</summary>
+   
+   ```css
+   main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      border-radius: 10%;
+      font-size: 40px;
+
+      selection-color: red;
+   }
+
+   main:hover {
+      selection-color: lime;
+
+      transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169853176-3e35a2cb-4fac-4511-964e-765237e50270.gif)
+</details>
+<details>
+   <summary>Text selection color</summary>
+   
+   ```css
+   main {
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
+      border-radius: 10%;
+      font-size: 40px;
+
+      selection-text-color: red;
+   }
+
+   main:hover {
+      selection-text-color: lime;
+
+      transition: .2s;
+   }
+   ```
+   ![Example](https://user-images.githubusercontent.com/65825775/169853846-ce51162a-0101-46ba-9dd1-6b00861f5b89.gif)
+</details>
