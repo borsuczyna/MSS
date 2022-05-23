@@ -146,8 +146,8 @@ Unpack mss to MTA resources folder
    border: size unit, border type, color format;
    
    main {
-       background-color: rgb(15,15,15);
-       border: 3px solid lime;
+      background-color: rgb(15,15,15);
+      border: 3px solid lime;
       border-radius: 30%;
    }
 
@@ -166,8 +166,8 @@ Unpack mss to MTA resources folder
    color: color format;
    
    main {
-       background-color: rgb(15,15,15);
-       border: 1px solid rgb(255,255,255,155);
+      background-color: rgb(15,15,15);
+      border: 1px solid rgb(255,255,255,155);
       font-size: 30px;
       color: white;
    }
@@ -175,7 +175,7 @@ Unpack mss to MTA resources folder
    main:hover {
       color: red;
 
-       transition: .2s;
+      transition: .2s;
    }
    ```
    ![Example](https://user-images.githubusercontent.com/65825775/169666914-83382423-1a4d-41eb-8608-2256e839e68c.gif)
